@@ -1,0 +1,22 @@
+.line {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.error {
+  position: absolute;
+  width: 100%;
+  border: 1px solid transparent;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-bottom: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: rgb(255, 225, 225);
+  color: rgb(150, 0, 0);
+  font-size: 14px;
+}
